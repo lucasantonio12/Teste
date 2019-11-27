@@ -6,14 +6,14 @@ import androidx.fragment.app.FragmentPagerAdapter
 
 class Tabs(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
-    val disView = DisciplinaView();
-    val tarView = TarefaView();
+    val disView = TarefaView();
+    val testView = teste3();
 
 
     override fun getItem(position: Int): Fragment? {
         return when (position){
             0->disView
-            1->tarView
+            1->testView
             else -> null
         }
     }

@@ -33,10 +33,6 @@ class MainActivity : AppCompatActivity() {
                     0 -> {
                         tab.getTabAt(0)!!.setText("Disciplina")
                     }
-                    1 -> {
-                        tab.getTabAt(0)!!.setText("Tarefa")
-
-                    }
                     else -> return
                 }
             }

@@ -21,14 +21,5 @@ class DisciplinaView : Fragment(){
     ): View? {
         return inflater.inflate(R.layout.activity_disciplina_recicly, container, false)
 
-        buttonSave.setOnClickListener {
-            Toast.makeText(context,"OIIIIIIIIIIIIIIIIIII", Toast.LENGTH_SHORT).show()
-        }
     }
-
-    override fun getContext(): Context? {
-        return super.getContext()
-
-    }
-
 }
